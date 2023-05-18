@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Lora';
+    src: url("../../assets/font/Lora-Regular.eot");
+    src: url("../../assets/font/Lora-Regular.eot?#iefix") format("embedded-opentype"), url("../../assets/font/Lora-Regular.svg#Lora-Regular") format("svg"), url("../../assets/font/Lora-Regular.ttf") format("truetype"), url("../../assets/font/Lora-Regular.woff") format("woff"), url("../../assets/font/Lora-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'Lora';
+    src: url("../../assets/font/Lora-Bold.eot");
+    src: url("../../assets/font/Lora-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/font/Lora-Bold.svg#Lora-Bold") format("svg"), url("../../assets/font/Lora-Bold.ttf") format("truetype"), url("../../assets/font/Lora-Bold.woff") format("woff"), url("../../assets/font/Lora-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'Lora';
+    src: url("../../assets/font/Lora-Italic.eot");
+    src: url("../../assets/font/Lora-Italic.eot?#iefix") format("embedded-opentype"), url("../../assets/font/Lora-Italic.svg#Lora-Italic") format("svg"), url("../../assets/font/Lora-Italic.ttf") format("truetype"), url("../../assets/font/Lora-Italic.woff") format("woff"), url("../../assets/font/Lora-Italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic; }
+  
+  @font-face {
+    font-family: 'Lora';
+    src: url("../../assets/font/Lora-BoldItalic.eot");
+    src: url("../../assets/font/Lora-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/font/Lora-BoldItalic.svg#Lora-BoldItalic") format("svg"), url("../../assets/font/Lora-BoldItalic.ttf") format("truetype"), url("../../assets/font/Lora-BoldItalic.woff") format("woff"), url("../../assets/font/Lora-BoldItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic; }
+  
+  @font-face {
+    font-family: 'SpaceMono';
+    src: url("../../assets/font/SpaceMono-Regular.eot");
+    src: url("../../assets/font/SpaceMono-Regular.eot?#iefix") format("embedded-opentype"), url("../../assets/font/SpaceMono-Regular.svg#SpaceMono-Regular") format("svg"), url("../../assets/font/SpaceMono-Regular.ttf") format("truetype"), url("../../assets/font/SpaceMono-Regular.woff") format("woff"), url("../../assets/font/SpaceMono-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'SpaceMono';
+    src: url("../../assets/font/SpaceMono-Bold.eot");
+    src: url("../../assets/font/SpaceMono-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/font/SpaceMono-Bold.svg#SpaceMono-Bold") format("svg"), url("../../assets/font/SpaceMono-Bold.ttf") format("truetype"), url("../../assets/font/SpaceMono-Bold.woff") format("woff"), url("../../assets/font/SpaceMono-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'SpaceMono';
+    src: url("../../assets/font/SpaceMono-Italic.eot");
+    src: url("../../assets/font/SpaceMono-Italic.eot?#iefix") format("embedded-opentype"), url("../../assets/font/SpaceMono-Italic.svg#SpaceMono-Italic") format("svg"), url("../../assets/font/SpaceMono-Italic.ttf") format("truetype"), url("../../assets/font/SpaceMono-Italic.woff") format("woff"), url("../../assets/font/SpaceMono-Italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic; }
+  
+  @font-face {
+    font-family: 'SpaceMono';
+    src: url("../../assets/font/SpaceMono-BoldItalic.eot");
+    src: url("../../assets/font/SpaceMono-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../assets/font/SpaceMono-BoldItalic.svg#SpaceMono-BoldItalic") format("svg"), url("../../assets/font/SpaceMono-BoldItalic.ttf") format("truetype"), url("../../assets/font/SpaceMono-BoldItalic.woff") format("woff"), url("../../assets/font/SpaceMono-BoldItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic; }

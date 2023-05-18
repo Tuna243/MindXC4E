@@ -1,0 +1,19 @@
+Đánh giá giảng viên:
+Lộ trình khóa học: FE->BE->Codeclearn, sweep, code platform.
+Tiêu chí đầu vào đầu ra:
+Nội dung buổi học: Tổng quan về lập trình web
+Cấu trúc 1 website
+- FE: Front End : Trải nghiệm người dùng
+- BE: Back End: Data dữ liệu người dùng
+Node JS
+Express JS
+Nest JS
+Deno JS- Code JS ở BE
+
+FE: framework: ReactJS, Node JS,...
+Học thêm:
+- Lập trình hướng đối tượng
+- Cấu trúc dữ liệu, giải thuật
+- nguyên lý solid
+- Mẫu thiết kế
+- Thiết kế data base
