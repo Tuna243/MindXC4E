@@ -1,3 +1,5 @@
+
+
 *
 {
     padding: 0;
@@ -8,8 +10,8 @@
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     /* background-color: rgb(45, 128, 200); */
+    width: 100%;
     margin:0 auto;
-    width: 1200px;
     display: flex;
     flex-wrap: wrap;
 
@@ -18,8 +20,8 @@
 .container > .card
 {
     /* background-color: rgb(216, 27, 27) ; */
-    width: calc(33.3333% - 20px);
     margin:0 auto;
+    width: calc(33.33% - 20px);
     margin-top: 10px;
     border-radius:15px;
     overflow: hidden;
@@ -68,4 +70,22 @@
 .container > .card > .card__dsc > .card__dsc--content > .view
 {
     opacity: 0.9;
+}
+@media only screen and ( max-width:1024px) {
+    .container > .card
+    {
+        width: calc(33.3333% - 20px);
+    }
+}
+@media only screen and ( max-width:800px) {
+    .container > .card
+    {
+        width: calc(50% - 30px);
+    }
+}
+@media only screen and ( max-width:480px) {
+    .container > .card
+    {
+        width: 100%;
+    }
 }
