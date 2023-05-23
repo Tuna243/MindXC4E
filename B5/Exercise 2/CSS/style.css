@@ -1,0 +1,91 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu > .container
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* background-color: rgb(45, 128, 200); */
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container > .card
+{
+    /* background-color: rgb(216, 27, 27) ; */
+    margin:0 auto;
+    width: calc(33.33% - 20px);
+    margin-top: 10px;
+    border-radius:15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+   
+}
+
+.container > .card > .card__img > img
+{
+    
+    width: 100%;
+    height: auto;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+.container > .card > .card__dsc
+{
+    width: 100%;
+    color: black;
+    padding: 10px 0px;
+    display: flex;
+
+}
+
+.container > .card > .card__dsc > .card__dsc--img > img
+{
+    border-radius: 360px;
+    width: 48px;
+    margin-right: 8px;
+}
+
+.container > .card > .card__dsc > .card__dsc--content > .tag
+{
+    opacity: 0.7;
+}
+
+.container > .card > .card__dsc > .card__dsc--content > .title
+{
+    overflow: hidden;
+    font-size: 18px;
+    padding: auto;
+    text-align:left;
+}
+
+.container > .card > .card__dsc > .card__dsc--content > .view
+{
+    opacity: 0.9;
+}
+@media only screen and ( max-width:1024px) {
+    .container > .card
+    {
+        width: calc(33.3333% - 20px);
+    }
+}
+@media only screen and ( max-width:800px) {
+    .container > .card
+    {
+        width: calc(50% - 30px);
+    }
+}
+@media only screen and ( max-width:480px) {
+    .container > .card
+    {
+        width: 100%;
+    }
+}
