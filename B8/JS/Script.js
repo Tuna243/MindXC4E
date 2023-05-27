@@ -41,25 +41,50 @@
 
 //2
 
-let a = Number(prompt());
-let b = Number(prompt());
-let c = Number(prompt());
-let  delta = (b**2) - (4*a*c);
-let x1,x2;
-console.log(delta);
-if( delta > 0)
+// let a = Number(prompt());
+// let b = Number(prompt());
+// let c = Number(prompt());
+// let  delta = (b**2) - (4*a*c);
+// let x1,x2;
+// console.log(delta);
+// if( delta > 0)
+// {
+//      x1 = (-b + Math.sqrt(delta) / 2*a);
+//      x2 = (-b - Math.sqrt(delta) / 2*a);
+// }
+// else if( delta === 0)
+// {
+//     x1 = -b / 2*a;
+//     x2 = x1;
+// }
+// else
+// {
+//     console.log("Non-variable");
+// }
+// console.log("Nghiem 1:" ,x1.toFixed(0));
+// console.log("Nghiem 2:" ,x2.toFixed(0));
+
+
+// Nhập số tiền/km. Nhập số km -> tính số tiền phải trả
+
+// let CPK = Number(prompt()),
+//     distance = Number(prompt());
+//     console.log(` Số tiền phải trả sau khi đi ${distance} km là: ${CPK * distance}`)
+// Nhập a,b, tính tổng các số chẵn và tổng các số lẻ trong khoảng 2 số đó.
+let a = Number(prompt(" Nhập số a")),
+    b = Number(prompt(" Nhập số b"))
+let S_odd = 0, 
+    S_even = 0
+for( let i = a; i <=b; i++)
 {
-     x1 = (-b + Math.sqrt(delta) / 2*a);
-     x2 = (-b - Math.sqrt(delta) / 2*a);
+    if(i % 2 === 0)
+    {
+        S_even += i
+    }
+    else
+    {
+        S_odd += i
+    } 
 }
-else if( delta === 0)
-{
-    x1 = -b / 2*a;
-    x2 = x1;
-}
-else
-{
-    console.log("Non-variable");
-}
-console.log("Nghiem 1:" ,x1.toFixed(0));
-console.log("Nghiem 2:" ,x2.toFixed(0));
+console.log("Tổng các số chẵn:",S_even)
+console.log("Tổng các số lẻ:",S_odd)
