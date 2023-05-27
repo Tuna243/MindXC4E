@@ -30,3 +30,4 @@ console.log(string_1.toUpperCase());
 let g = "Learn Javascript";
 console.log(g);
 console.log(g.replace("a","b"));
+let s = `$()`

@@ -180,7 +180,7 @@ main{
         display: none;
     }
 } 
-@media only screen and ( max-width:800px) {
+@media only screen and ( max-width:768px) {
     .header__bar--login
     {
         display:none;
@@ -193,6 +193,21 @@ main{
     .menu_bar
     {
         display: none;
+    }
+    .site-new__container> .site-new__container--item
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .site-new__container--item-1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .site-new__container--item-img-1
+    {
+        height: 50%;
     }
 } 
 
