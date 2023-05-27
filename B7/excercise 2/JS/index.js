@@ -16,3 +16,17 @@ console.log(`Dien tich hinh chu nhat: ${S}`);
 // bai 4
 let str = "Hello"
 console.log(str.length);
+// bai 5
+let str1 ="Xin chao!"
+let str2 = "chao"
+let c = str1.includes(str2);
+console.log(c);
+
+// bai 6
+let string_1 = "learning javascript";
+console.log(string_1);
+console.log(string_1.toUpperCase());
+// bai 7
+let g = "Learn Javascript";
+console.log(g);
+console.log(g.replace("a","b"));
