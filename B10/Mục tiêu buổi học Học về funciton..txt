@@ -1,0 +1,7 @@
+Mục tiêu buổi học: Học về funciton.
+Xem tiếp về DOM : 
+	-DOM selector methods
+	-Events and user interactions
+Mục tiêu buổi học sau
+	- Xem trước được hướng đối tượng(syntax, using) OOP
+	- Phân biệt hướng đối tượng, hướng sự kiẹn
