@@ -71,8 +71,8 @@
 //     distance = Number(prompt());
 //     console.log(` Số tiền phải trả sau khi đi ${distance} km là: ${CPK * distance}`)
 // Nhập a,b, tính tổng các số chẵn và tổng các số lẻ trong khoảng 2 số đó.
-let a = Number(prompt(" Nhập số a")),
-    b = Number(prompt(" Nhập số b"))
+// let a = Number(prompt(" Nhập số a")),
+//     b = Number(prompt(" Nhập số b"))
 let S_odd = 0, 
     S_even = 0
 for( let i = a; i <=b; i++)
@@ -88,3 +88,4 @@ for( let i = a; i <=b; i++)
 }
 console.log("Tổng các số chẵn:",S_even)
 console.log("Tổng các số lẻ:",S_odd)
+
