@@ -17,11 +17,7 @@ function cal_distance(x)
         }
 
     }
-    if ( x > 120 )
-    {
-        total = total * 0.9;
-    }
-    return total;
+    return x > 120 ? total*0.9: total;
 }
 
-console.log(cal_distance(5));
+console.log(cal_distance(121));
