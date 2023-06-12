@@ -2,8 +2,8 @@ const inTask = document.querySelector("#inputText");
 const btnAdd = document.querySelector("#addButton");
 // const btnClear = document.querySelector("#clearButton");
 const listTask = document.querySelector("#listTask");
-// const dayTime = document.querySelector(".myDayTime");
-// console.log(dayTime);
+const dayTime = document.querySelector(".myDayTime");
+console.log(dayTime);
 let arr=[];
 
 btnAdd.addEventListener("click",addList)
@@ -15,9 +15,14 @@ btnAdd.addEventListener("click",addList)
 // {
 // }
 
-// function setDayTime()
+function setDayTime()
 
-// setDayTime(dayTime);
+{
+    let now = new Date();
+    dayTime.innerHTML = now.toDateString();
+}
+
+setDayTime();
 
 function addList()
 {
@@ -49,8 +54,8 @@ function loadLocalStore()
 {
     if( localStorage.getItem("arrToDo") !==null)
     {
-        let arrTask = JSON.parse(localStorage.getItem("arrToDo"));
-        for(let i of arrTask)
+        arr = JSON.parse(localStorage.getItem("arrToDo"));
+        for(let i of arr)
         {
             newToDoItem(i);
         }
